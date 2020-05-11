@@ -1,0 +1,44 @@
+body {
+  background-color: azure;
+}
+
+h1 {
+  color: cadetblue;
+  padding: 15px 32px;
+  display: block;
+  font-weight: bold;
+  font-family: Ubuntu, Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 50px;
+}
+
+h3 {
+  color: azure;
+  background-color: cadetblue;
+  padding: 15px 32px;
+  display: inline-block;
+  font-weight: bold;
+  font-family: Ubuntu, Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: rgb(62, 72, 82);
+  font-weight: normal;
+  text-align: justify;
+  margin-left: 350px;
+  margin-right: 350px;
+  font-size: larger;
+  font-family: Ubuntu, Arial, Helvetica, sans-serif;
+  display: block;
+}
+
+a {
+  color: cadetblue;
+  text-decoration: none;
+}
+
+small {
+  color: rgb(62, 72, 82);
+  text-align: center;
+  font-family: Ubuntu, Arial, Helvetica, sans-serif;
+}
