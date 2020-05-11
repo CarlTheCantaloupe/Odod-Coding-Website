@@ -1,79 +1,45 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-AU">
   <head>
-    <title>Odod website for users</title>
+    <title>Get started with your programming journey!</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
-
   <body>
-
-    <div>
-      <font face="Segoe UI">
-      <h1>Our website for you!</h1>
-    </div>
-
-    <div>
-
-      <h2>Feedback</h2>
-      <p id="fn"></p>
-      <p id="ln"></p>
-      <p id="ad"></p>
-      <p id="fe"></p>
-      <script>
-      var giveFeedback = function () {
-        var fname = prompt("What is your first name? We need this in case we have a reply for you.", "Harry");
-        var lname = prompt("What is your last name? We need this in case we have a reply for you.", "Potter");
-        var names = fname.toLowerCase + "." + lname.toLowerCase() + "@server.com";
-        var email = prompt("What is your email address? We need this in case we have a reply for you.", names);
-        var info = prompt("Finally, what do you want to say to us?", "I think that you should: ");
-        var conf = "First name: " + fname + "\nLast name: " + lname + "\nEmail address: " + email + "\nFeedback: " + info;
-        alert(conf);
-        console.log(conf);
-        var fn = document.getElementById("fn");
-        var ln = document.getElementById("ln");
-        var ad = document.getElementById("ad");
-        var fe = document.getElementById("fe");
-        fn.innerHTML = "First name: " + fname;
-        ln.innerHTML = "Last name: " + lname;
-        ad.innerHTML = "Email address: " + email;
-        fe.innerHTML = "Feedback: " + info;
-      };
-      </script>
-
-      <button type="button" onclick="giveFeedback()">Give feedback! Once you have already given feedback, you can change it by clicking me again!</button>
-      <hr>
-    </div>
-
-    <div>
-      
-      <h2>Help</h2>
-      <script>
-      function question() {
-        var query = prompt("What's your question?");
-        console.log("Question: " + query);
-        var q = document.getElementById("q");
-        q.innerHTML = "My question: " + query;
-      }
-      function add() {
-        var thinkadd = prompt("What do think we should add to the help page?");
-        console.log(thinkadd);
-        var da = document.getElementById("da");
-        da.innerHTML = "I think there should be a help topic about: " + thinkadd; 
-      }
-      </script>
-
-      <h3>Aid</h3>
-
-      <p>We don't know what help people want at the moment.</p>
-
-      <button onclick="add()" type="button">Suggest a help topic!</button>
-      <button onclick="question()" type="button">Have a question?</button>
-
-      <p id="da"></p>
-      <p id="q"></p>
-
-    </div>
-    <div>
-      <a href="coding.html">See the Odod Coding Website for great coding tips!</a>
-    </div>
+    <h1 id="heading">
+      How to get started on your computer programming journey
+    </h1>
+    <h3>Scratch</h3>
+    <p>
+      <a href="scratch.mit.edu">Scratch</a> is a simple, block-based programming
+      language for beginners. If you want to do some coding, at the top of the
+      page, click<em> Join Scratch</em>, and follow the instructions for making
+      an account. On the Scratch home page, you can view other people's projects
+      as well. When you have made your account, click the icon of a folder. This
+      will take you to <em>My Stuff</em>. Then, click <em>New project</em>. From
+      here, you can code a program by dragging blocks into the scripts area
+      pressing the green flag to run your brand new program. There is a help bar
+      on the right if you need it, as well as a Scratch Wiki. You can explore
+      the Scratch site, and have fun learning to code!
+    </p>
+    <h3>Python</h3>
+    <p>
+      <a href="http://python.org" title="Python website">Python</a> is a very
+      simple programming language for beginners (but it <em>is</em> a real
+      programming language). Python is a sensible next step in computer
+      programmning, after Scratch. I highly recommend that you get comfortable
+      with Scratch before starting with Python. Go to the
+      <a href="http://python.org" title="Python website">Python website</a>, to
+      download Python for Windows. If you're on Mac, Linux, BSD or another
+      Unix-like system, open the terminal and type <em>python3</em> to use the
+      Python shell.
+    </p>
+    <h3>JavaScript</h3>
+    <p>
+      Javascript is a good language to know, as it is the language used to make
+      responsive content on the web. It is very easy to learn. To try out some
+      JavaScript, click on this <a href="about:blank">link</a> and, if you are
+      on Chrome, press Ctrl+Shift+J to open the JavaScript console. On Firefox,
+      open the menu and click "Developer Tools".
+    </p>
   </body>
 </html>
