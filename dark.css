@@ -1,9 +1,9 @@
 body {
-  background-color: azure;
+  background-color: cadetblue;
 }
 
 h1 {
-  color: cadetblue;
+  color: azure;
   padding: 15px 32px;
   display: block;
   font-weight: bold;
@@ -13,8 +13,8 @@ h1 {
 }
 
 h3 {
-  color: azure;
-  background-color: cadetblue;
+  color: cadetblue;
+  background-color: azure;
   padding: 15px 32px;
   display: inline-block;
   font-weight: bold;
@@ -22,7 +22,7 @@ h3 {
 }
 
 p {
-  color: rgb(62, 72, 82);
+  color: azure;
   font-weight: normal;
   text-align: justify;
   margin-left: 350px;
@@ -33,17 +33,17 @@ p {
 }
 
 a {
-  color: cadetblue;
+  color: rgb(75, 85, 97);
   text-decoration: none;
   font-family: Ubuntu, Arial, Helvetica, sans-serif;
 }
 
-.dark {
-  color: azure;
+.light {
+  background-color: azure;
   font-weight: bold;
   font-family: Ubuntu, Arial, Helvetica, sans-serif;
   text-align: center;
-  background-color: cadetblue;
+  color: cadetblue;
   border: none;
   padding: 15px 32px;
   text-decoration: none;
